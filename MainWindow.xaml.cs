@@ -1,5 +1,5 @@
 ﻿using System.Windows;
-using System.Windows.Controls;  // Директива для работы с элементами управления
+using System.Windows.Controls; 
 
 namespace LibraryApp
 {
