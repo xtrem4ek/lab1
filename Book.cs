@@ -1,16 +1,14 @@
 using System;
 
-namespace LibraryApp  // Пространство имен вашего проекта
+namespace LibraryApp 
 {
-    public class Book  // Имя класса
+    public class Book  
     {
-        // Поля (переменные) класса
         public string Title { get; set; }
         public string Author { get; set; }
         public int Year { get; set; }
         public string ISBN { get; set; }
 
-        // Конструктор класса
         public Book(string title, string author, int year, string isbn)
         {
             Title = title;
@@ -19,7 +17,6 @@ namespace LibraryApp  // Пространство имен вашего прое
             ISBN = isbn;
         }
 
-        // Метод для вывода информации о книге
         public override string ToString()
         {
             return $"{Title} by {Author}, {Year} (ISBN: {ISBN})";
